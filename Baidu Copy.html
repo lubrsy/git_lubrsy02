@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>百度一下，你也不知道</title>
+		<style type="text/css">
+			/*左上角超链接用div排列*/
+			#topleft
+			{
+				display:inline-block;
+			}
+			#topleft div
+			{
+				display:inline-block;
+				padding:13px;
+				font-family:Arail "microsoft yahei";
+				font-size:13px;
+			}
+			/*右上角超链接用绝对定位*/
+			#topright div
+			{
+				font-family:Arail "microsoft yahei";
+				font-size:13px;
+			}
+			#tianqi
+			{
+				position:absolute;
+				top:22px;
+				right:218px;
+			}
+			#shezhi
+			{
+				position:absolute;
+				top:21px;
+				right:160px;
+			}
+			#geren
+			{
+				position:absolute;
+				top:15px;
+				right:40px;
+			}
+			/*设置页面中间图片和搜索框*/
+			#baidu2
+			{
+				width:270px;
+				height:129px;
+			}
+			#a1
+			{
+				position:absolute;
+				top:26.4%;
+				margin-top:-64.5px;
+				left:49.6%;
+				margin-left:-135px;
+			}
+			#inputtext
+			{
+				border:2px solid silver;
+				border-top-left-radius:10px;
+				border-bottom-left-radius:10px;
+				font-family:Arail "microsoft yahei";
+				font-size:16px;
+				float:left;
+			}
+			#input
+			{
+				position:absolute;
+				top:26.4%;
+				margin-top:84px;
+				left:49.6%;
+				margin-left:-327px;
+			}
+			/*设置所有文字超链接的样式*/
+			a
+			{
+				text-decoration:none;
+			}
+			a:visited{color:black;}
+			a:hover
+			{
+				color:blue;
+				cursor:pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<!--左上角超链接-->
+		<div id="topleft">
+			<div id="xinwen">
+				<a href="http://news.baidu.com/" target="_blank">新闻</a>
+			</div>
+			<div id="hao123">
+				<a href="https://www.hao123.com/" target="_blank">hao123</a>
+			</div>
+			<div id="ditu">
+				<a href="https://map.baidu.com/@12739793,3551306,13z" target="_blank">地图</a>
+			</div>
+			<div id="zhibo">
+				<a href="https://live.baidu.com/" target="_blank">直播</a>
+			</div>
+			<div id="shipin">
+				<a href="https://haokan.baidu.com/?sfrom=baidu-top" target="_blank">视频</a>
+			</div>
+			<div id="tieba">
+				<a href="https://tieba.baidu.com/index.html" target="_blank">贴吧</a>
+			</div>
+			<div id="xueshu">
+				<a href="https://xueshu.baidu.com/" target="_blank">学术</a>
+			</div>
+			<div id="gengduo">
+				<a href="https://www.baidu.com/more/" target="_blank">更多</a>
+			</div>
+		</div>
+		<!--右上角超链接-->
+		<div id="topright">
+			<div id="tianqi">
+				<a href="https://www.baidu.com/s?tn=baidutop10&rsv_idx=2&wd=%E6%AD%A6%E6%B1%89%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5" target="_blank"><img src="img/tianqi.jpg"></a>
+			</div>
+			<div id="shezhi">
+				<a href="http://www.baidu.com" target="_blank">设置</a>
+			</div>
+			<div id="geren">
+				<a href="http://i.baidu.com/" target="_blank"><img src="img/geren.jpg"></a>
+			</div>
+		</div>
+		<!--中间图标和搜索栏-->
+		<div id="baidu">
+			<a  id="a1" href="https://www.baidu.com/s?wd=%E4%BB%8A%E6%97%A5%E6%96%B0%E9%B2%9C%E4%BA%8B&tn=SE_Pclogo_6ysd4c7a&sa=ire_dl_gh_logo&rsv_dl=igh_logo_pc" target="_blank"><img id="baidu2" src="img/baidu2.png" alt="百度" title="点击一下,  了解更多"></a><br/>
+		</div>
+		<div id="input">
+			<input id="inputtext" type="text" style="height:38px;line-height:38px;" value="   周悦是谁？" size="63">
+			<a id="baiduyixia" href="Zhouyue.html" target="_blank"><img src="img/baiduyixia.jpg"></a>
+		</div>
+	</body>
+</html>
